@@ -32,7 +32,6 @@ My professional experience so far is very broad. I've done things ranging from c
 - Summer Internship, May 2021 - August 2021
 - (As a team) responsible for vulnerability management, endpoint + application security, certificate management, and DLP.
 - Technical Skills: Scripting in Python and Powershell
-- Non-Technical Skills: Being a fly on the wall
 
 ## Project Sought
 I've been interested in offensive security lately but haven't really gotten my foot in the door yet. Would love to do something in that department, write a piece of malware or a script kiddie tool or something. I've done personal projects with 3D printing and virtualization, so those are possibilities as well. 
