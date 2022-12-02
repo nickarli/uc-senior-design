@@ -35,3 +35,4 @@ My professional experience so far is very broad. I've done things ranging from c
 
 ## Project Sought
 I've been interested in offensive security lately but haven't really gotten my foot in the door yet. Would love to do something in that department, write a piece of malware or a script kiddie tool or something. I've done personal projects with 3D printing and virtualization, so those are possibilities as well. 
+**Update 12/1/22** I ended up choosing a property management system for Windows built with C++ and a MySQL database. This is a project I had intending on completing for awhile, and I'm glad to be finally getting started on it.

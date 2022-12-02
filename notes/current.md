@@ -1,0 +1,68 @@
+## Current Solution notes
+
+- MS Access
+- 7 tables
+    - tblApartments: apartment info
+        - address 
+        - floor 
+        - apt 
+        - prev balance 
+        - rentee 
+        - ID 
+        - key
+    - tblDay Due: associates day of week with numeric code, 0 for "Monthly"
+    - tblOccupants: renter info
+        - renter id 
+        - first name 
+        - last name 
+        - SSN (unused doesn't want implemented) 
+        - employer 
+        - employer phone 
+        - employer contact 
+        - move in date 
+        - deposit paid 
+        - rent amount 
+        - next of kin name 
+        - NOK phone 
+        - apt phone (unused add cell phone to new one) 
+        - notes 
+        - weekly due date (0 for monthly) 
+        - payment frequency 
+        - current paid-thru date 
+        - binary "paid?" option for if they paid this week 
+        - last paid date 
+        - binary "balance?" option for if balance exists 
+        - balance amount
+    - tblPayment Frequency: associates frequency code with payment frequency (bm = bi-monthly, etc)
+    - tbl After collections count: quick stats for rent collection
+        - num vacancies
+        - num paid in last 7 days
+        - num people not due this week
+        - num people past due
+        - num people who paid this week
+        - num people overdue but paid this week
+    - tblPaymentHistory: all payments ever
+        - rentee ID
+        - amount paid
+        - date paid
+        - apartment ID
+    - tblPayments doesn't do much
+- 3 forms
+    - frmMainMenu: 
+        - tenant info: open form frmOccupants
+        - check balances: open tblOccupants
+        - presently due, mark paid: open form frmWho's Due
+        - print list: quick print collection list for this week (report 1 Tim's 12 st list)
+        - print balance shee: quick print balance sheet (report 3 Balance Sheet)
+        - quit application
+    - frmOccupants: quick enter information about new tenant
+    - frmWho's Due: lists all tenants due this week with amounts, dates, balances, etc
+- 29 reports, including:
+    - collection lists
+    - receipts
+    - list of vacancies
+    - list of tenants
+    - rent payments over different periods of time
+    - overdue rents
+    - total rent by building
+    - total rent by person

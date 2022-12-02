@@ -7,4 +7,4 @@
 - Chell
 
 ## Project Topic 
-- A property management system for iPad
+- A property management system for Windows written in C++ and leveraging a MySQL database.
