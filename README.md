@@ -12,6 +12,7 @@
     - [Task List](docs/tasklist.md)
     - [Timeline/Effort Matrix (xlsx)](docs/timeline-effortmatrix.xlsx)
 - [Slideshow (pptx)](docs/NickArlinghaus-Slideshow.pptx)
+    - [Presentation (video)](https://drive.google.com/file/d/1rdj6pslvmDcIZl9OrKpzjC9RBPhAv9h7/view)
 - [Professional Biography](docs/nick-arlinghaus-prof-bio.md)
 - [Budget](docs/budget.md)
 - [Appendix](docs/appendix.md)
