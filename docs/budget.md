@@ -1,3 +1,3 @@
 ## Budget
 
-- There have been no expenses incurred thus far, and none are forseen.
+- There have been no expenses incurred thus far, and none are foreseen.
