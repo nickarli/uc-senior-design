@@ -4,6 +4,9 @@
 #include <QMainWindow>
 #include <QPushButton>
 #include <QStackedWidget>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -31,6 +34,8 @@ private slots:
     void saveNewBuilding();
     void saveEditedBuilding();
     void editBuildingButton();
+    void steveMode();
+    void testFunc();                // test function
 private:
     Ui::MainWindow *ui;
 };

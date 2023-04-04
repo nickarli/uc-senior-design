@@ -141,6 +141,13 @@ propman_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.5.0/mingw_64/include/QtSql/QSqlDatabase \
+  D:/Qt/6.5.0/mingw_64/include/QtSql/QSqlQuery \
+  D:/Qt/6.5.0/mingw_64/include/QtSql/qsqldatabase.h \
+  D:/Qt/6.5.0/mingw_64/include/QtSql/qsqlquery.h \
+  D:/Qt/6.5.0/mingw_64/include/QtSql/qtsql-config.h \
+  D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlexports.h \
+  D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
@@ -285,6 +292,27 @@ propman_autogen/timestamp: \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake \
+  D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginConfig.cmake \
   D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake \

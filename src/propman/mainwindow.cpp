@@ -3,11 +3,18 @@
 #include "currentlydue.h"
 
 
-
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+
+    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+    db.setHostName("localhost");
+    db.setDatabaseName("propman");
+    // get creds from user stop hardcoding u idiot
+    db.setUserName("root");
+    db.setPassword("G*2J:x&B");
+    bool ok = db.open();
 
     ui->setupUi(this);
     setFixedSize(size());
@@ -30,13 +37,21 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->buildingsBackButton_3, &QPushButton::released, this, &::MainWindow::buildingsBackButton);
     connect(ui->addBuildingsSaveButton, &QPushButton::released, this, &::MainWindow::saveNewBuilding);
     connect(ui->editBuildingsSaveButton, &QPushButton::released, this, &::MainWindow::saveEditedBuilding);
-
-
-
-
-
-
+    connect(ui->actionSteve_Mode , &QAction::triggered, this, &::MainWindow::steveMode);
+    connect(ui->testButton, &QPushButton::released, this, &::MainWindow::testFunc);
 }
+
+
+void MainWindow::testFunc(){
+
+
+    QSqlQuery query;
+    query.exec("INSERT INTO params (paramstype, paramsval) VALUES ('STEVEMODE', '1')");
+
+
+    ui->testButton->setText("Leave and go drink a\nBeer.");
+}
+
 
 // TODO: turn em into printing functions
 void MainWindow::quickPrintBalanceSheet(){
@@ -46,16 +61,22 @@ void MainWindow::quickPrintCollectionList(){
     ui->QpColListButton->setText("gotcha");
 }
 
-bool exitbutton = false;
-void MainWindow::exitButton(){
-    if(!exitbutton){
-        ui->exitButton->setStyleSheet("QPushButton{font-size: 15px;}");
-        ui->exitButton->setText("Leave and\ngo drink\na beer");
-        exitbutton = true;
+bool steveModeVar = false;
+void MainWindow::steveMode(){
+    if(!steveModeVar){
+        ui->exitButton->setStyleSheet("QPushButton{font-size: 12px; font-family: MS Sans Serif; text-align: left;}");
+        ui->exitButton->setText("Leave and go drink a\nBeer.");
+        steveModeVar = true;
     }
     else{
-    ::QCoreApplication::quit();
+        ui->exitButton->setStyleSheet("QPushButton{font-size: 20px; font-family: Segoe UI; text-align: center;}");
+        ui->exitButton->setText("Exit");
+        steveModeVar = false;
     }
+}
+
+void MainWindow::exitButton(){
+    ::QCoreApplication::quit();
 }
 
 void MainWindow::editBuildingButton(){

@@ -32,16 +32,16 @@
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
-			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 			"D:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
-			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
-			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake"
 		],
 		"nodes" : 
 		[
@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 23,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 55,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
@@ -92,45 +98,39 @@
 			},
 			{
 				"file" : 4,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"command" : 8,
 				"file" : 4,
 				"line" : 157,
-				"parent" : 8
+				"parent" : 9
 			},
 			{
 				"file" : 3,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"command" : 7,
 				"file" : 3,
 				"line" : 52,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"file" : 2,
-				"parent" : 11
+				"parent" : 12
 			},
 			{
 				"command" : 6,
 				"file" : 2,
 				"line" : 61,
-				"parent" : 12
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 550,
-				"parent" : 2
+				"parent" : 13
 			},
 			{
 				"command" : 7,
 				"file" : 3,
 				"line" : 40,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"file" : 9,
@@ -175,58 +175,10 @@
 				"parent" : 22
 			},
 			{
-				"command" : 7,
-				"file" : 6,
-				"line" : 40,
-				"parent" : 20
-			},
-			{
-				"file" : 12,
-				"parent" : 24
-			},
-			{
-				"command" : 10,
-				"file" : 12,
-				"line" : 39,
-				"parent" : 25
-			},
-			{
-				"command" : 9,
-				"file" : 8,
-				"line" : 111,
-				"parent" : 26
-			},
-			{
-				"command" : 8,
-				"file" : 7,
-				"line" : 47,
-				"parent" : 27
-			},
-			{
-				"file" : 11,
-				"parent" : 28
-			},
-			{
-				"command" : 7,
-				"file" : 11,
-				"line" : 52,
-				"parent" : 29
-			},
-			{
-				"file" : 10,
-				"parent" : 30
-			},
-			{
-				"command" : 6,
-				"file" : 10,
-				"line" : 61,
-				"parent" : 31
-			},
-			{
-				"command" : 6,
-				"file" : 10,
-				"line" : 76,
-				"parent" : 31
+				"command" : 5,
+				"file" : 0,
+				"line" : 550,
+				"parent" : 2
 			},
 			{
 				"command" : 9,
@@ -238,26 +190,80 @@
 				"command" : 8,
 				"file" : 7,
 				"line" : 47,
-				"parent" : 34
+				"parent" : 25
+			},
+			{
+				"file" : 11,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 52,
+				"parent" : 27
+			},
+			{
+				"file" : 10,
+				"parent" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 29
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 40,
+				"parent" : 27
 			},
 			{
 				"file" : 14,
+				"parent" : 31
+			},
+			{
+				"command" : 10,
+				"file" : 14,
+				"line" : 39,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 111,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 47,
+				"parent" : 34
+			},
+			{
+				"file" : 13,
 				"parent" : 35
 			},
 			{
 				"command" : 7,
-				"file" : 14,
+				"file" : 13,
 				"line" : 52,
 				"parent" : 36
 			},
 			{
-				"file" : 13,
+				"file" : 12,
 				"parent" : 37
 			},
 			{
 				"command" : 6,
-				"file" : 13,
+				"file" : 12,
 				"line" : 61,
+				"parent" : 38
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 76,
 				"parent" : 38
 			}
 		]
@@ -277,11 +283,11 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "MINGW_HAS_SECURE_API=1"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "QT_CORE_LIB"
 				},
 				{
@@ -289,35 +295,39 @@
 					"define" : "QT_GUI_LIB"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "QT_NEEDS_QMAIN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_SQL_LIB"
 				},
 				{
 					"backtrace" : 6,
 					"define" : "QT_WIDGETS_LIB"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "UNICODE"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "WIN32"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "WIN64"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "_UNICODE"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"define" : "_WIN64"
 				}
 			],
@@ -328,17 +338,17 @@
 					"path" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/include/QtCore"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 24,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/mkspecs/win32-g++"
 				},
@@ -351,6 +361,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/Qt/6.5.0/mingw_64/include/QtSql"
 				}
 			],
 			"language" : "CXX",
@@ -358,8 +373,8 @@
 			{
 				"backtraces" : 
 				[
-					14,
-					14
+					24,
+					24
 				],
 				"standard" : "17"
 			},
@@ -367,7 +382,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5
 			]
 		}
 	],
@@ -414,58 +430,63 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
-				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Gui.a",
+				"backtrace" : 7,
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Sql.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 14,
-				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Core.a",
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Gui.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 23,
-				"fragment" : "-lmpr",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 23,
-				"fragment" : "-luserenv",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 32,
-				"fragment" : "-lmingw32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 32,
-				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6EntryPoint.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 33,
-				"fragment" : "-lshell32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 39,
 				"fragment" : "-ld3d11",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 39,
+				"backtrace" : 23,
 				"fragment" : "-ldxgi",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 39,
+				"backtrace" : 23,
 				"fragment" : "-ldxguid",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 39,
+				"backtrace" : 23,
 				"fragment" : "-ldcomp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-lmpr",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-luserenv",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6EntryPoint.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "-lshell32",
 				"role" : "libraries"
 			},
 			{
@@ -490,7 +511,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5
 			]
 		},
 		{
@@ -498,7 +520,9 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				6,
+				8,
+				9
 			]
 		},
 		{
@@ -506,14 +530,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7,
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				11
 			]
 		}
 	],
@@ -549,9 +574,31 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "currentlydue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "currentlydue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "currentlydue.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/include/ui_currentlydue.h",
 			"sourceGroupIndex" : 1
 		},
 		{

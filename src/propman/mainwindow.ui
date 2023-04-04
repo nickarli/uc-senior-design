@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="mainmenu">
      <widget class="QLabel" name="label_2">
@@ -219,6 +219,19 @@ and Receipts</string>
       </property>
       <property name="text">
        <string>Insights</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="testButton">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>30</y>
+        <width>481</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
       </property>
      </widget>
     </widget>
@@ -1417,6 +1430,8 @@ Entries</string>
     <addaction name="separator"/>
     <addaction name="actionDatabase"/>
     <addaction name="actionPrint"/>
+    <addaction name="separator"/>
+    <addaction name="actionSteve_Mode"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -1441,6 +1456,14 @@ Entries</string>
   <action name="actionAbout">
    <property name="text">
     <string>About</string>
+   </property>
+  </action>
+  <action name="actionSteve_Mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Steve Mode</string>
    </property>
   </action>
  </widget>

@@ -34,6 +34,7 @@ public:
     QAction *actionDatabase;
     QAction *actionPrint;
     QAction *actionAbout;
+    QAction *actionSteve_Mode;
     QWidget *centralwidget;
     QStackedWidget *mainWidgets;
     QWidget *mainmenu;
@@ -49,6 +50,7 @@ public:
     QPushButton *QpColListButton;
     QLabel *label;
     QLabel *label_5;
+    QPushButton *testButton;
     QWidget *buildings;
     QStackedWidget *buildingsWidget;
     QWidget *mainBuildingsWidget;
@@ -160,6 +162,9 @@ public:
         actionPrint->setObjectName("actionPrint");
         actionAbout = new QAction(MainWindow);
         actionAbout->setObjectName("actionAbout");
+        actionSteve_Mode = new QAction(MainWindow);
+        actionSteve_Mode->setObjectName("actionSteve_Mode");
+        actionSteve_Mode->setCheckable(true);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         mainWidgets = new QStackedWidget(centralwidget);
@@ -215,6 +220,9 @@ public:
         label_5 = new QLabel(mainmenu);
         label_5->setObjectName("label_5");
         label_5->setGeometry(QRect(200, 270, 49, 16));
+        testButton = new QPushButton(mainmenu);
+        testButton->setObjectName("testButton");
+        testButton->setGeometry(QRect(260, 30, 481, 24));
         mainWidgets->addWidget(mainmenu);
         buildings = new QWidget();
         buildings->setObjectName("buildings");
@@ -564,11 +572,13 @@ public:
         menumainwindow->addSeparator();
         menumainwindow->addAction(actionDatabase);
         menumainwindow->addAction(actionPrint);
+        menumainwindow->addSeparator();
+        menumainwindow->addAction(actionSteve_Mode);
         menuHelp->addAction(actionAbout);
 
         retranslateUi(MainWindow);
 
-        mainWidgets->setCurrentIndex(2);
+        mainWidgets->setCurrentIndex(0);
         buildingsWidget->setCurrentIndex(0);
         stackedWidget->setCurrentIndex(0);
         stackedWidget_2->setCurrentIndex(0);
@@ -584,6 +594,7 @@ public:
         actionDatabase->setText(QCoreApplication::translate("MainWindow", "Database", nullptr));
         actionPrint->setText(QCoreApplication::translate("MainWindow", "Printer", nullptr));
         actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
+        actionSteve_Mode->setText(QCoreApplication::translate("MainWindow", "Steve Mode", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:20pt;\">Main Menu</span></p></body></html>", nullptr));
         tenantInfoButton->setText(QCoreApplication::translate("MainWindow", "Tenant Info", nullptr));
         currentlyDueButton->setText(QCoreApplication::translate("MainWindow", "Currently Due", nullptr));
@@ -596,6 +607,7 @@ public:
 "and Receipts", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt;\">Quick Print</span></p></body></html>", nullptr));
         label_5->setText(QCoreApplication::translate("MainWindow", "Insights", nullptr));
+        testButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
         addBuildingButton->setText(QCoreApplication::translate("MainWindow", "Add Building", nullptr));
         editBuildingsButton->setText(QCoreApplication::translate("MainWindow", "Edit Buildings", nullptr));
         label_11->setText(QCoreApplication::translate("MainWindow", "Buildings table", nullptr));

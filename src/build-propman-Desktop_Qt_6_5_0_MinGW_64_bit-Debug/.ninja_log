@@ -1,66 +1,26 @@
 # ninja log v5
-7	253	7020013885426611	propman_autogen/timestamp	fd18cae19a8d3a18
-917	4108	7019437669275312	CMakeFiles/propman.dir/propman_autogen/mocs_compilation.cpp.obj	796238f2c25d1839
-3447	3762	7020013920471766	propman.exe	458244e26f9971e6
-7	253	7020013885426611	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-7	253	7020013885426611	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-7	253	7020013885426611	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-913	4049	7019437668685306	CMakeFiles/propman.dir/main.cpp.obj	e039b4e2f294759b
-258	3446	7020013917351774	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-262	3290	7020013915791774	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-6	273	7020014209872061	propman_autogen/timestamp	fd18cae19a8d3a18
-6	273	7020014209872061	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-6	273	7020014209872061	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-6	273	7020014209872061	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-282	3451	7020014241637678	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-278	3575	7020014242877982	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-3575	3906	7020014246138019	propman.exe	458244e26f9971e6
-8	307	7020014468390845	propman_autogen/timestamp	fd18cae19a8d3a18
-8	307	7020014468390845	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-8	307	7020014468390845	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-8	307	7020014468390845	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-312	3401	7020014499317211	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-315	3532	7020014500627530	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-3532	3867	7020014503940771	propman.exe	458244e26f9971e6
-9	267	7020014947537884	propman_autogen/timestamp	fd18cae19a8d3a18
-9	267	7020014947537884	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-9	267	7020014947537884	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-9	267	7020014947537884	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-274	3430	7020014979143497	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-278	3487	7020014979713481	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-3488	3807	7020014982833616	propman.exe	458244e26f9971e6
-7	258	7020015117910353	propman_autogen/timestamp	fd18cae19a8d3a18
-7	258	7020015117910353	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-7	258	7020015117910353	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-7	258	7020015117910353	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-263	3374	7020015149054797	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-268	3516	7020015150474798	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-3516	3836	7020015153615104	propman.exe	458244e26f9971e6
-6	255	7020015305148569	propman_autogen/timestamp	fd18cae19a8d3a18
-6	255	7020015305148569	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-6	255	7020015305148569	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-6	255	7020015305148569	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-260	3362	7020015336224815	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-264	3468	7020015337274764	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-3468	3783	7020015340374775	propman.exe	458244e26f9971e6
-6	262	7020015520787480	propman_autogen/timestamp	fd18cae19a8d3a18
-6	262	7020015520787480	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-6	262	7020015520787480	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-6	262	7020015520787480	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-267	3510	7020015553279313	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-271	3531	7020015553489321	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-3531	3857	7020015556679332	propman.exe	458244e26f9971e6
-9	348	7020132551222529	propman_autogen/timestamp	fd18cae19a8d3a18
-9	348	7020132551222529	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-9	348	7020132551222529	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-9	348	7020132551222529	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-358	3520	7020132582900745	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-353	3666	7020132584371136	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-3666	3997	7020132587615649	propman.exe	458244e26f9971e6
-7	301	7020132679937646	propman_autogen/timestamp	fd18cae19a8d3a18
-7	301	7020132679937646	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-7	301	7020132679937646	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
-7	301	7020132679937646	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
-306	3370	7020132710612417	CMakeFiles/propman.dir/mainwindow.cpp.obj	bc2905be43869b40
-311	3383	7020132710762427	CMakeFiles/propman.dir/currentlydue.cpp.obj	dfc9fb8cf36f37e2
-3384	3679	7020132713662395	propman.exe	458244e26f9971e6
+11	352	7022774466333976	propman_autogen/timestamp	fd18cae19a8d3a18
+11	352	7022774466333976	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
+11	352	7022774466333976	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
+1290	5183	7022773388359283	CMakeFiles/propman.dir/propman_autogen/mocs_compilation.cpp.obj	36c69fca3da7f2bd
+4927	5275	7022774515515647	propman.exe	d28e4b1e52456222
+11	352	7022774466333976	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
+1285	5188	7022773388399269	CMakeFiles/propman.dir/main.cpp.obj	971b071efb8dd25d
+368	4927	7022774512085614	CMakeFiles/propman.dir/mainwindow.cpp.obj	9ed016092b1bc967
+360	4760	7022774510425699	CMakeFiles/propman.dir/currentlydue.cpp.obj	b9e58d7e4da06d9d
+10	1025	7022943146297629	propman_autogen/timestamp	fd18cae19a8d3a18
+10	1025	7022943146297629	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
+10	1025	7022943146297629	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
+10	1025	7022943146297629	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
+1025	4285	7022943180990718	CMakeFiles/propman.dir/main.cpp.obj	971b071efb8dd25d
+1030	4364	7022943181840708	CMakeFiles/propman.dir/propman_autogen/mocs_compilation.cpp.obj	36c69fca3da7f2bd
+1037	5223	7022943190415128	CMakeFiles/propman.dir/currentlydue.cpp.obj	b9e58d7e4da06d9d
+1042	5243	7022943190605133	CMakeFiles/propman.dir/mainwindow.cpp.obj	9ed016092b1bc967
+5243	5627	7022943194405391	propman.exe	d28e4b1e52456222
+8	273	7022943709329136	propman_autogen/timestamp	fd18cae19a8d3a18
+8	273	7022943709329136	propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
+8	273	7022943709329136	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/timestamp	fd18cae19a8d3a18
+8	273	7022943709329136	C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/mocs_compilation.cpp	fd18cae19a8d3a18
+282	3381	7022943740411131	CMakeFiles/propman.dir/currentlydue.cpp.obj	b9e58d7e4da06d9d
+278	3489	7022943741491169	CMakeFiles/propman.dir/mainwindow.cpp.obj	9ed016092b1bc967
+3490	3830	7022943744851123	propman.exe	d28e4b1e52456222
