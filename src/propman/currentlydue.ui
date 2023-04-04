@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CurrentlyDue</class>
+ <widget class="QMainWindow" name="CurrentlyDue">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>880</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;Currently Due&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>801</width>
+      <height>931</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Paid?</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bal?</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Apartment</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Rent</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Balance</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Paid Through</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Frequency</string>
+     </property>
+    </column>
+    <item row="0" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>John Smith</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>123 Main St - 1F</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>$120.00</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="0" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>John Doe</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>123 Main St - 2R</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>$600.00</string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="1" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>Jane Doe</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>123 Main St - 1R</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>$160.00</string>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="2" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>Jane Smith</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>123 Main St - 3FL</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>$125.00</string>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string>$60.00</string>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="3" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>Walter White</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>308 Negra Arroyo Ln - HSE</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>$650.00</string>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="4" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>Nacho Varga</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>432 Houston Rd - 2FL</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>$190.00</string>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string>$100.00</string>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string>3/25/23</string>
+     </property>
+    </item>
+    <item row="5" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>Tuco Salamanca</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>7865 Somestreet St - HSE</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>$120.00</string>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="text">
+      <string>$80.00</string>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="6" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>Hector Salamanca</string>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string>37 Idontknow Rd - 1FL</string>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string>$120.00</string>
+     </property>
+    </item>
+    <item row="7" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="7" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="7" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>Kim Wexler</string>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string>23 Ohio Ave - 1F</string>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string>$120.00</string>
+     </property>
+    </item>
+    <item row="8" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="8" column="6">
+     <property name="text">
+      <string>3/25/23</string>
+     </property>
+    </item>
+    <item row="8" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>Jimmy McGill</string>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string>24 Ohio Ave - 2R</string>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string>$600.00</string>
+     </property>
+    </item>
+    <item row="9" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="9" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="9" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="10" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string>Jesse Pinkman</string>
+     </property>
+    </item>
+    <item row="10" column="3">
+     <property name="text">
+      <string>25 Ohio Ave - 3FL</string>
+     </property>
+    </item>
+    <item row="10" column="4">
+     <property name="text">
+      <string>$120.00</string>
+     </property>
+    </item>
+    <item row="10" column="5">
+     <property name="text">
+      <string>$30.00</string>
+     </property>
+    </item>
+    <item row="10" column="6">
+     <property name="text">
+      <string>3/18/23</string>
+     </property>
+    </item>
+    <item row="10" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="11" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="11" column="2">
+     <property name="text">
+      <string>Gus Fring</string>
+     </property>
+    </item>
+    <item row="11" column="3">
+     <property name="text">
+      <string>87 Some Rd - HSE</string>
+     </property>
+    </item>
+    <item row="11" column="4">
+     <property name="text">
+      <string>$600.00</string>
+     </property>
+    </item>
+    <item row="11" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="11" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="11" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="12" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="12" column="2">
+     <property name="text">
+      <string>Hank Schrader</string>
+     </property>
+    </item>
+    <item row="12" column="3">
+     <property name="text">
+      <string>657 Vine St - 1FL</string>
+     </property>
+    </item>
+    <item row="12" column="4">
+     <property name="text">
+      <string>$600.00</string>
+     </property>
+    </item>
+    <item row="12" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="12" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="12" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="13" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="13" column="2">
+     <property name="text">
+      <string>Mike Ehrmantraut</string>
+     </property>
+    </item>
+    <item row="13" column="3">
+     <property name="text">
+      <string>789 Detour Ln - 3F</string>
+     </property>
+    </item>
+    <item row="13" column="4">
+     <property name="text">
+      <string>$280.00</string>
+     </property>
+    </item>
+    <item row="13" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="13" column="6">
+     <property name="text">
+      <string>3/18/23</string>
+     </property>
+    </item>
+    <item row="13" column="7">
+     <property name="text">
+      <string>Biweekly</string>
+     </property>
+    </item>
+    <item row="14" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="14" column="2">
+     <property name="text">
+      <string>Nick Arlinghaus</string>
+     </property>
+    </item>
+    <item row="14" column="3">
+     <property name="text">
+      <string>8 W Hollister St - 3FL</string>
+     </property>
+    </item>
+    <item row="14" column="4">
+     <property name="text">
+      <string>$120.00</string>
+     </property>
+    </item>
+    <item row="14" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="14" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="14" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="15" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="15" column="2">
+     <property name="text">
+      <string>Sam Dotson</string>
+     </property>
+    </item>
+    <item row="15" column="3">
+     <property name="text">
+      <string>8 W Hollister St - 3FL</string>
+     </property>
+    </item>
+    <item row="15" column="4">
+     <property name="text">
+      <string>$240.00</string>
+     </property>
+    </item>
+    <item row="15" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="15" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="15" column="7">
+     <property name="text">
+      <string>Biweekly</string>
+     </property>
+    </item>
+    <item row="16" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="16" column="2">
+     <property name="text">
+      <string>Tim Arlinghaus</string>
+     </property>
+    </item>
+    <item row="16" column="3">
+     <property name="text">
+      <string>1111 Russel St - 2FL</string>
+     </property>
+    </item>
+    <item row="16" column="4">
+     <property name="text">
+      <string>$165.00</string>
+     </property>
+    </item>
+    <item row="16" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="16" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="16" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="17" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="17" column="2">
+     <property name="text">
+      <string>Claire Thecat</string>
+     </property>
+    </item>
+    <item row="17" column="3">
+     <property name="text">
+      <string>8 W Hollisrter St - 3FL</string>
+     </property>
+    </item>
+    <item row="17" column="4">
+     <property name="text">
+      <string>$270.00</string>
+     </property>
+    </item>
+    <item row="17" column="5">
+     <property name="text">
+      <string>-$20.00</string>
+     </property>
+    </item>
+    <item row="17" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="17" column="7">
+     <property name="text">
+      <string>Biweekly</string>
+     </property>
+    </item>
+    <item row="18" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="18" column="2">
+     <property name="text">
+      <string>Kodi Thedog</string>
+     </property>
+    </item>
+    <item row="18" column="3">
+     <property name="text">
+      <string>1111 Russel St - 1FL</string>
+     </property>
+    </item>
+    <item row="18" column="4">
+     <property name="text">
+      <string>$240.00</string>
+     </property>
+    </item>
+    <item row="18" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="18" column="6">
+     <property name="text">
+      <string>3/25/23</string>
+     </property>
+    </item>
+    <item row="18" column="7">
+     <property name="text">
+      <string>Biweekly</string>
+     </property>
+    </item>
+    <item row="19" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="19" column="2">
+     <property name="text">
+      <string>Bojack Horseman</string>
+     </property>
+    </item>
+    <item row="19" column="3">
+     <property name="text">
+      <string>1475 Luck Hoof Ave - HSE</string>
+     </property>
+    </item>
+    <item row="19" column="4">
+     <property name="text">
+      <string>$900.00</string>
+     </property>
+    </item>
+    <item row="19" column="5">
+     <property name="text">
+      <string>$-35.00</string>
+     </property>
+    </item>
+    <item row="19" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="19" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="20" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="20" column="2">
+     <property name="text">
+      <string>Eric Cartman</string>
+     </property>
+    </item>
+    <item row="20" column="3">
+     <property name="text">
+      <string>1 Hotdog St - HSE</string>
+     </property>
+    </item>
+    <item row="20" column="4">
+     <property name="text">
+      <string>$700.00</string>
+     </property>
+    </item>
+    <item row="20" column="5">
+     <property name="text">
+      <string>$60.00</string>
+     </property>
+    </item>
+    <item row="20" column="6">
+     <property name="text">
+      <string>3/4/23</string>
+     </property>
+    </item>
+    <item row="20" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="21" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="21" column="2">
+     <property name="text">
+      <string>Stan Marsh</string>
+     </property>
+    </item>
+    <item row="21" column="3">
+     <property name="text">
+      <string>452 North Park Rd - 1FL</string>
+     </property>
+    </item>
+    <item row="21" column="4">
+     <property name="text">
+      <string>$300.00</string>
+     </property>
+    </item>
+    <item row="21" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="21" column="6">
+     <property name="text">
+      <string>3/18/23</string>
+     </property>
+    </item>
+    <item row="21" column="7">
+     <property name="text">
+      <string>Biweekly</string>
+     </property>
+    </item>
+    <item row="22" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="22" column="2">
+     <property name="text">
+      <string>Kyle Broflovski</string>
+     </property>
+    </item>
+    <item row="22" column="3">
+     <property name="text">
+      <string>78 Jimmy St - HSE</string>
+     </property>
+    </item>
+    <item row="22" column="4">
+     <property name="text">
+      <string>$120.00</string>
+     </property>
+    </item>
+    <item row="22" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="22" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="22" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="23" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="23" column="2">
+     <property name="text">
+      <string>Kenny McCormick</string>
+     </property>
+    </item>
+    <item row="23" column="3">
+     <property name="text">
+      <string>34 Jimmy St - 1FL</string>
+     </property>
+    </item>
+    <item row="23" column="4">
+     <property name="text">
+      <string>$650.00</string>
+     </property>
+    </item>
+    <item row="23" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="23" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="23" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="24" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="24" column="2">
+     <property name="text">
+      <string>Jimmy Neutron</string>
+     </property>
+    </item>
+    <item row="24" column="3">
+     <property name="text">
+      <string>356 Nerd St - HSE</string>
+     </property>
+    </item>
+    <item row="24" column="4">
+     <property name="text">
+      <string>$180.00</string>
+     </property>
+    </item>
+    <item row="24" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="24" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="24" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="25" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="25" column="2">
+     <property name="text">
+      <string>Neville Pinto</string>
+     </property>
+    </item>
+    <item row="25" column="3">
+     <property name="text">
+      <string>2600 Clifton Ave - 2R</string>
+     </property>
+    </item>
+    <item row="25" column="4">
+     <property name="text">
+      <string>$600.00</string>
+     </property>
+    </item>
+    <item row="25" column="5">
+     <property name="text">
+      <string>$70.00</string>
+     </property>
+    </item>
+    <item row="25" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="25" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="26" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="26" column="2">
+     <property name="text">
+      <string>Linus Torvalds</string>
+     </property>
+    </item>
+    <item row="26" column="3">
+     <property name="text">
+      <string>8 Canada Ln - 1R</string>
+     </property>
+    </item>
+    <item row="26" column="4">
+     <property name="text">
+      <string>$140.00</string>
+     </property>
+    </item>
+    <item row="26" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="26" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="26" column="7">
+     <property name="text">
+      <string>Weekly</string>
+     </property>
+    </item>
+    <item row="27" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="27" column="2">
+     <property name="text">
+      <string>Muffin Man</string>
+     </property>
+    </item>
+    <item row="27" column="3">
+     <property name="text">
+      <string>1 Drury Ln - 1F</string>
+     </property>
+    </item>
+    <item row="27" column="4">
+     <property name="text">
+      <string>$560.00</string>
+     </property>
+    </item>
+    <item row="27" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="27" column="6">
+     <property name="text">
+      <string>3/4/23</string>
+     </property>
+    </item>
+    <item row="27" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="28" column="1">
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </item>
+    <item row="28" column="2">
+     <property name="text">
+      <string>Ron Swanson</string>
+     </property>
+    </item>
+    <item row="28" column="3">
+     <property name="text">
+      <string>78 Pawnee St - HSE</string>
+     </property>
+    </item>
+    <item row="28" column="4">
+     <property name="text">
+      <string>$800.00</string>
+     </property>
+    </item>
+    <item row="28" column="5">
+     <property name="text">
+      <string>$100.00</string>
+     </property>
+    </item>
+    <item row="28" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="28" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+    <item row="29" column="1">
+     <property name="text">
+      <string>No</string>
+     </property>
+    </item>
+    <item row="29" column="2">
+     <property name="text">
+      <string>Leslie Knope</string>
+     </property>
+    </item>
+    <item row="29" column="3">
+     <property name="text">
+      <string>24 Pawnee St - HSE</string>
+     </property>
+    </item>
+    <item row="29" column="4">
+     <property name="text">
+      <string>$800.00</string>
+     </property>
+    </item>
+    <item row="29" column="5">
+     <property name="text">
+      <string>$0.00</string>
+     </property>
+    </item>
+    <item row="29" column="6">
+     <property name="text">
+      <string>4/1/23</string>
+     </property>
+    </item>
+    <item row="29" column="7">
+     <property name="text">
+      <string>Monthly</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Undo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Finish</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>70</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#aa0000;&quot;&gt;Unsaved Changes&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>50</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#00aa00;&quot;&gt;Saved!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>70</y>
+      <width>110</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>70</y>
+      <width>110</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>70</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;to&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>dateEdit</zorder>
+   <zorder>dateEdit_2</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionChange_Week">
+   <property name="text">
+    <string>Change Week</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
