@@ -38,6 +38,8 @@ public:
     QDateEdit *dateEdit;
     QDateEdit *dateEdit_2;
     QLabel *label_4;
+    QLabel *label_5;
+    QLabel *collectionTotal;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *CurrentlyDue)
@@ -579,6 +581,15 @@ public:
         label_4 = new QLabel(centralwidget);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(370, 70, 21, 21));
+        label_5 = new QLabel(centralwidget);
+        label_5->setObjectName("label_5");
+        label_5->setGeometry(QRect(428, 30, 91, 20));
+        collectionTotal = new QLabel(centralwidget);
+        collectionTotal->setObjectName("collectionTotal");
+        collectionTotal->setGeometry(QRect(530, 20, 121, 41));
+        QFont font;
+        font.setPointSize(16);
+        collectionTotal->setFont(font);
         CurrentlyDue->setCentralWidget(centralwidget);
         label_3->raise();
         label->raise();
@@ -590,6 +601,8 @@ public:
         dateEdit->raise();
         dateEdit_2->raise();
         label_4->raise();
+        label_5->raise();
+        collectionTotal->raise();
         statusbar = new QStatusBar(CurrentlyDue);
         statusbar->setObjectName("statusbar");
         CurrentlyDue->setStatusBar(statusbar);
@@ -1051,6 +1064,8 @@ public:
         label_2->setText(QCoreApplication::translate("CurrentlyDue", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt; color:#aa0000;\">Unsaved Changes</span></p></body></html>", nullptr));
         label_3->setText(QCoreApplication::translate("CurrentlyDue", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt; color:#00aa00;\">Saved!</span></p></body></html>", nullptr));
         label_4->setText(QCoreApplication::translate("CurrentlyDue", "<html><head/><body><p align=\"center\">to</p></body></html>", nullptr));
+        label_5->setText(QCoreApplication::translate("CurrentlyDue", "Collection Total:", nullptr));
+        collectionTotal->setText(QCoreApplication::translate("CurrentlyDue", "$40,000.00", nullptr));
     } // retranslateUi
 
 };
