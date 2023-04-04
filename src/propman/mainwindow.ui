@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="mainmenu">
      <widget class="QLabel" name="label_2">
@@ -246,7 +246,7 @@ and Receipts</string>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="mainBuildingsWidget">
        <widget class="QGraphicsView" name="graphicsView_5">
@@ -435,9 +435,9 @@ and Receipts</string>
         <property name="geometry">
          <rect>
           <x>360</x>
-          <y>210</y>
+          <y>205</y>
           <width>101</width>
-          <height>16</height>
+          <height>31</height>
          </rect>
         </property>
         <property name="text">
@@ -447,7 +447,7 @@ and Receipts</string>
        <widget class="QSpinBox" name="spinBox">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>200</y>
           <width>51</width>
           <height>41</height>
@@ -457,7 +457,7 @@ and Receipts</string>
        <widget class="QLineEdit" name="lineEdit_2">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>270</y>
           <width>131</width>
           <height>41</height>
@@ -468,19 +468,19 @@ and Receipts</string>
         <property name="geometry">
          <rect>
           <x>360</x>
-          <y>280</y>
-          <width>121</width>
-          <height>21</height>
+          <y>270</y>
+          <width>161</width>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Water Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Initial Water Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_5">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>340</y>
           <width>131</width>
           <height>41</height>
@@ -491,21 +491,21 @@ and Receipts</string>
         <property name="geometry">
          <rect>
           <x>360</x>
-          <y>350</y>
-          <width>121</width>
-          <height>21</height>
+          <y>340</y>
+          <width>151</width>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Gas Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Initial Gas Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QTextEdit" name="textEdit">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>410</y>
-          <width>261</width>
+          <width>211</width>
           <height>101</height>
          </rect>
         </property>
@@ -533,7 +533,7 @@ and Receipts</string>
          </rect>
         </property>
         <property name="text">
-         <string>Save</string>
+         <string>Submit</string>
         </property>
        </widget>
       </widget>
@@ -568,13 +568,13 @@ and Receipts</string>
         <property name="geometry">
          <rect>
           <x>360</x>
-          <y>350</y>
-          <width>121</width>
-          <height>21</height>
+          <y>340</y>
+          <width>161</width>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Gas Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Initial Gas Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_6">
@@ -591,13 +591,13 @@ and Receipts</string>
         <property name="geometry">
          <rect>
           <x>360</x>
-          <y>280</y>
-          <width>121</width>
-          <height>21</height>
+          <y>270</y>
+          <width>161</width>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Water Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Initial Water Meter Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_25">
@@ -627,9 +627,9 @@ and Receipts</string>
         <property name="geometry">
          <rect>
           <x>360</x>
-          <y>210</y>
+          <y>205</y>
           <width>101</width>
-          <height>16</height>
+          <height>31</height>
          </rect>
         </property>
         <property name="text">
@@ -649,9 +649,9 @@ and Receipts</string>
        <widget class="QTextEdit" name="textEdit_2">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>410</y>
-          <width>261</width>
+          <width>211</width>
           <height>101</height>
          </rect>
         </property>
@@ -659,7 +659,7 @@ and Receipts</string>
        <widget class="QSpinBox" name="spinBox_2">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>200</y>
           <width>51</width>
           <height>41</height>
@@ -682,7 +682,7 @@ and Receipts</string>
        <widget class="QLineEdit" name="lineEdit_9">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>270</y>
           <width>131</width>
           <height>41</height>
@@ -731,7 +731,7 @@ and Receipts</string>
        <widget class="QLineEdit" name="lineEdit_10">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>550</x>
           <y>340</y>
           <width>131</width>
           <height>41</height>
@@ -756,7 +756,7 @@ and Receipts</string>
          <rect>
           <x>380</x>
           <y>80</y>
-          <width>141</width>
+          <width>171</width>
           <height>31</height>
          </rect>
         </property>
@@ -784,7 +784,7 @@ and Receipts</string>
          </rect>
         </property>
         <property name="text">
-         <string>Save</string>
+         <string>Submit</string>
         </property>
        </widget>
       </widget>

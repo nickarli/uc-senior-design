@@ -1065,7 +1065,7 @@ public:
         label_3->setText(QCoreApplication::translate("CurrentlyDue", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt; color:#00aa00;\">Saved!</span></p></body></html>", nullptr));
         label_4->setText(QCoreApplication::translate("CurrentlyDue", "<html><head/><body><p align=\"center\">to</p></body></html>", nullptr));
         label_5->setText(QCoreApplication::translate("CurrentlyDue", "Collection Total:", nullptr));
-        collectionTotal->setText(QCoreApplication::translate("CurrentlyDue", "$40,000.00", nullptr));
+        collectionTotal->setText(QCoreApplication::translate("CurrentlyDue", "$00,000.00", nullptr));
     } // retranslateUi
 
 };

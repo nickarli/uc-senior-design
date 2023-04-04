@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "currentlydue.h"
+#include "dbcontrol.h"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -8,13 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
 
-    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("localhost");
-    db.setDatabaseName("propman");
-    // get creds from user stop hardcoding u idiot
-    db.setUserName("root");
-    db.setPassword("G*2J:x&B");
-    bool ok = db.open();
+
 
     ui->setupUi(this);
     setFixedSize(size());
@@ -43,11 +38,8 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 void MainWindow::testFunc(){
-
-
-    QSqlQuery query;
-    query.exec("INSERT INTO params (paramstype, paramsval) VALUES ('STEVEMODE', '1')");
-
+    dbcontrol db;
+    db.doTheThing();
 
     ui->testButton->setText("Leave and go drink a\nBeer.");
 }

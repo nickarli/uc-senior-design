@@ -6,6 +6,8 @@ propman_autogen/timestamp: \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/CMakeLists.txt \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/currentlydue.cpp \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/currentlydue.h \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbcontrol.cpp \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbcontrol.h \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/main.cpp \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/mainwindow.cpp \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/mainwindow.h \

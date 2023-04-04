@@ -1403,7 +1403,7 @@
      </font>
     </property>
     <property name="text">
-     <string>$40,000.00</string>
+     <string>$00,000.00</string>
     </property>
    </widget>
    <zorder>label_3</zorder>

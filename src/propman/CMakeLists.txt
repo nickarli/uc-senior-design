@@ -22,6 +22,8 @@ set(PROJECT_SOURCES
         currentlydue.cpp
         currentlydue.h
         currentlydue.ui
+        dbcontrol.h
+        dbcontrol.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
