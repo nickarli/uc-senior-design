@@ -6,6 +6,16 @@
 #include <QStackedWidget>
 #include <QSqlDatabase>
 #include <QSqlQuery>
+#include <QComboBox>
+#include <iostream>
+#include <string>
+#include <vector>
+#include "building.h"
+#include "currentlydue.h"
+#include "occupant.h"
+#include "dbcontrol.h"
+#include <QElapsedTimer>
+using namespace std;
 
 
 QT_BEGIN_NAMESPACE
@@ -35,7 +45,15 @@ private slots:
     void saveEditedBuilding();
     void editBuildingButton();
     void steveMode();
-    void testFunc();                // test function
+    void newTenantButton();
+    void tenantInfoBackButton();
+    void refreshNewTenantAptList(const QString);
+    void resetAllFields();
+    void editBuildingSelected(const QString);
+    void setDefaults();
+    void disableEditBuildingFields();
+    void saveNewTenant();
+    QDate paidThruCalc(QDate, QString);
 private:
     Ui::MainWindow *ui;
 };

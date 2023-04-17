@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 30,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -75,19 +75,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
 				"line" : 63,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 1,
-				"line" : 52,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 1,
-				"line" : 53,
 				"parent" : 0
 			},
 			{
@@ -384,7 +384,11 @@
 				1,
 				2,
 				5,
-				9
+				9,
+				11,
+				13,
+				15,
+				17
 			]
 		}
 	],
@@ -514,7 +518,11 @@
 				1,
 				2,
 				5,
-				9
+				9,
+				11,
+				13,
+				15,
+				17
 			]
 		},
 		{
@@ -525,7 +533,12 @@
 				6,
 				8,
 				10,
-				11
+				12,
+				14,
+				16,
+				19,
+				20,
+				21
 			]
 		},
 		{
@@ -534,14 +547,15 @@
 			[
 				4,
 				7,
-				12
+				18,
+				22
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13
+				23
 			]
 		}
 	],
@@ -604,6 +618,55 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 4,
+			"path" : "building.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "building.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "occupant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "occupant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "payment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "payment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "balancedialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "balancedialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "balancedialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/include/ui_mainwindow.h",
@@ -613,6 +676,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/include/ui_currentlydue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/include/ui_balancedialog.h",
 			"sourceGroupIndex" : 1
 		},
 		{

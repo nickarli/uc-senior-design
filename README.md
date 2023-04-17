@@ -16,3 +16,4 @@
 - [Professional Biography](docs/nick-arlinghaus-prof-bio.md)
 - [Budget](docs/budget.md)
 - [Appendix](docs/appendix.md)
+- [Final Design Report](docs/finalreportTOC.md)

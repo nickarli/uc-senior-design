@@ -24,6 +24,13 @@ set(PROJECT_SOURCES
         currentlydue.ui
         dbcontrol.h
         dbcontrol.cpp
+        building.h
+        building.cpp
+        occupant.h
+        occupant.cpp
+        payment.h
+        payment.cpp
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

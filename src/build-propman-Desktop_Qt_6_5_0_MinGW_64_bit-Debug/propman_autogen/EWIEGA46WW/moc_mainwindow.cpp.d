@@ -1,7 +1,17 @@
 C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/mainwindow.h \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/propman_autogen/moc_predefs.h \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/building.h \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/currentlydue.h \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbcontrol.h \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/occupant.h \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/payment.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QDate \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QDateTime \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QElapsedTimer \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QString \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qalgorithms.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qanystringview.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qarraydata.h \
@@ -16,6 +26,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearraylist.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qbytearrayview.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qchar.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcompare.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcompare_impl.h \
@@ -28,7 +39,9 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdatastream.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qdatetime.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qflags.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qfloat16.h \
@@ -44,6 +57,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtCore/qiterator.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlogging.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmalloc.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
@@ -64,6 +78,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qscopedpointer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qscopeguard.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
@@ -130,6 +145,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
+  D:/Qt/6.5.0/mingw_64/include/QtGui/qvalidator.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.5.0/mingw_64/include/QtSql/QSqlDatabase \
@@ -139,15 +155,25 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtSql/qtsql-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlglobal.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QComboBox \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractslider.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qcombobox.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qrubberband.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qslider.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qstackedwidget.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qstyle.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qstyleoption.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabbar.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -190,6 +216,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/iterator_concepts.h \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
@@ -280,6 +307,8 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
   D:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
