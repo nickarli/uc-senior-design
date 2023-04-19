@@ -3,6 +3,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/building.h \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/currentlydue.h \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbcontrol.h \
+  C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbdialog.h \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/occupant.h \
   C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/payment.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QDate \
@@ -156,6 +157,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlexports.h \
   D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlglobal.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QComboBox \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QDialog \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
@@ -164,6 +166,7 @@ C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/build-propman-Desk
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qcombobox.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \

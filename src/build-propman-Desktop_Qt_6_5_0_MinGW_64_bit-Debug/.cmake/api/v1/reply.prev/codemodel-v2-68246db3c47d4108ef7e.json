@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b0a872a72e590cb9c0b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "propman",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "propman::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-propman-Debug-d0d18ecfe60cbd1ebb3e.json",
+					"name" : "propman",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "propman_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-propman_autogen-Debug-6fc0182205baf7181838.json",
+					"name" : "propman_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "propman_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-propman_autogen_timestamp_deps-Debug-98ed181c6de7161bd18d.json",
+					"name" : "propman_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/build-propman-Desktop_Qt_6_5_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Nick/School/Senior Design/Repo/uc-senior-design/src/propman"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

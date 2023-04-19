@@ -10,6 +10,8 @@ propman_autogen/timestamp: \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/currentlydue.h \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbcontrol.cpp \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbcontrol.h \
+	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbdialog.cpp \
+	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbdialog.h \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/main.cpp \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/mainwindow.cpp \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/mainwindow.h \
@@ -168,6 +170,7 @@ propman_autogen/timestamp: \
 	D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlexports.h \
 	D:/Qt/6.5.0/mingw_64/include/QtSql/qtsqlglobal.h \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/QComboBox \
+	D:/Qt/6.5.0/mingw_64/include/QtWidgets/QDialog \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/QPushButton \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
@@ -176,6 +179,7 @@ propman_autogen/timestamp: \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractslider.h \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/qcombobox.h \
+	D:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/qmainwindow.h \
 	D:/Qt/6.5.0/mingw_64/include/QtWidgets/qpushbutton.h \
@@ -620,5 +624,6 @@ propman_autogen/timestamp: \
 	D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
 	D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/currentlydue.ui \
+	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/dbdialog.ui \
 	C:/Users/Nick/School/Senior\ Design/Repo/uc-senior-design/src/propman/mainwindow.ui \
 	D:/Qt/Tools/CMake_64/bin/cmake.exe

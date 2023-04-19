@@ -15,6 +15,7 @@
 #include "occupant.h"
 #include "dbcontrol.h"
 #include <QElapsedTimer>
+#include "dbdialog.h"
 using namespace std;
 
 
@@ -54,6 +55,7 @@ private slots:
     void disableEditBuildingFields();
     void saveNewTenant();
     QDate paidThruCalc(QDate, QString);
+    void openDbSettings();
 private:
     Ui::MainWindow *ui;
 };

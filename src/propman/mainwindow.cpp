@@ -42,6 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->editBuildingCombo,SIGNAL(currentTextChanged(const QString)), this,SLOT(editBuildingSelected(const QString)));
     connect(ui->tenantInfoAddSubmit, &QPushButton::released, this, &::MainWindow::saveNewTenant);
     connect(ui->tenantInfoBackButton1, &QPushButton::released, this, &::MainWindow::resetAllFields);
+    connect(ui->actionDatabase, &QAction::triggered, this, &::MainWindow::openDbSettings);
 
 
 
@@ -53,7 +54,10 @@ MainWindow::MainWindow(QWidget *parent)
 }
 
 
-
+void MainWindow::openDbSettings(){
+    dbdialog *d = new dbdialog(this);
+    d->show();
+}
 
 void MainWindow::refreshNewTenantAptList(const QString thing){
     //ui->pushButton->setText(thing);

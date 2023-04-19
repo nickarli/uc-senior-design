@@ -30,6 +30,9 @@ set(PROJECT_SOURCES
         occupant.cpp
         payment.h
         payment.cpp
+        dbdialog.h
+        dbdialog.cpp
+        dbdialog.ui
 
 )
 
