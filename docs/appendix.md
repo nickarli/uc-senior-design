@@ -8,11 +8,14 @@
 - [Qt Printer Support - also supports PDF generation](https://doc.qt.io/qt-6/qtprintsupport-index.html)
 - [Making an executable from a C++ project](https://www.wikihow.com/Compile-CPP-File-to-EXE)
 - [DBConvert - converting Access DB to MySQL](https://dbconvert.com/access/mysql/)
+- [QtRPT and QtRptDesigner](https://qtrpt.sourceforge.io/)
+- [Compiling QSqlDatabase Drivers for MySQL](https://doc.qt.io/qt-6/sql-driver.html)
 
 ### Markdown-ized Notes
 - [Database](/notes/db.md)
 - [Current Solution](/notes/current.md)
 - [User Desired Features](/notes/desiredfeats.md)
+- [General Syntax Notes](/notes/syntaxnotes.md)
 
 
 

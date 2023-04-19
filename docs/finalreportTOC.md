@@ -2,8 +2,7 @@
 ## Table of Contents
 
 - [Project Description](project-description.md)
-- [User Interface Specification]()
-- [Test Plan and Results]()
+- [Test Plan and Results](testplan.pdf)
 - [User Manual](/docs/userguide/userguide.md)
 - [Final Presentation](Final-Slidedeck.pptx)
 - [Poster](poster.pdf)
