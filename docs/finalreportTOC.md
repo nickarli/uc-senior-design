@@ -4,7 +4,7 @@
 - [Project Description](project-description.md)
 - [User Interface Specification]()
 - [Test Plan and Results]()
-- [User Manual](docs/userguide/userguide.md)
+- [User Manual](/docs/userguide/userguide.md)
 - [Final Presentation](Final-Slidedeck.pptx)
 - [Poster](poster.pdf)
 - Assessments
