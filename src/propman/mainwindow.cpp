@@ -43,9 +43,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->tenantInfoAddSubmit, &QPushButton::released, this, &::MainWindow::saveNewTenant);
     connect(ui->tenantInfoBackButton1, &QPushButton::released, this, &::MainWindow::resetAllFields);
     connect(ui->actionDatabase, &QAction::triggered, this, &::MainWindow::openDbSettings);
+    connect(ui->addWaterButton, &QPushButton::released, this, &::MainWindow::addWaterEntry);
 
-
-
+//addWaterButton
 
 
 
@@ -53,6 +53,9 @@ MainWindow::MainWindow(QWidget *parent)
     //tenantInfoAddSubmit
 }
 
+void MainWindow::addWaterEntry(){
+    ui->utilitiesWidget->setCurrentWidget(ui->addWater);
+}
 
 void MainWindow::openDbSettings(){
     dbdialog *d = new dbdialog(this);

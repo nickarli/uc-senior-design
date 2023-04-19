@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="mainmenu">
      <widget class="QLabel" name="label_2">
@@ -65,7 +65,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Tenant Info</string>
+       <string>Tenants</string>
       </property>
      </widget>
      <widget class="QPushButton" name="currentlyDueButton">
@@ -233,7 +233,7 @@ and Receipts</string>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="mainBuildingsWidget">
        <widget class="QGraphicsView" name="graphicsView_5">
@@ -2165,7 +2165,7 @@ Menu</string>
 Menu</string>
       </property>
      </widget>
-     <widget class="QStackedWidget" name="stackedWidget_3">
+     <widget class="QStackedWidget" name="utilitiesWidget">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -2175,7 +2175,7 @@ Menu</string>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page_7">
        <widget class="QPushButton" name="pushButton_30">
@@ -2246,7 +2246,7 @@ Menu</string>
 Entries</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_28">
+       <widget class="QPushButton" name="addWaterButton">
         <property name="geometry">
          <rect>
           <x>620</x>
@@ -2316,14 +2316,123 @@ Entries</string>
        <zorder>pushButton_30</zorder>
        <zorder>pushButton_31</zorder>
        <zorder>pushButton_27</zorder>
-       <zorder>pushButton_28</zorder>
+       <zorder>addWaterButton</zorder>
        <zorder>pushButton_26</zorder>
        <zorder>pushButton_29</zorder>
        <zorder>label_9</zorder>
       </widget>
-      <widget class="QWidget" name="page_8"/>
+      <widget class="QWidget" name="addWater">
+       <widget class="QLineEdit" name="addBuildingCity_2">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>280</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>210</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>140</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="tenantInfoBackButton1_2">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>10</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="tenantInfoAddSubmit_2">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>10</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>65</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Water Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>290</y>
+          <width>91</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Reading&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>150</y>
+          <width>91</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Building&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>220</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Date&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </widget>
      </widget>
-     <zorder>stackedWidget_3</zorder>
+     <zorder>utilitiesWidget</zorder>
      <zorder>label_8</zorder>
      <zorder>mainMenuButton4</zorder>
     </widget>
@@ -2335,7 +2444,7 @@ Entries</string>
      <x>0</x>
      <y>0</y>
      <width>807</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menumainwindow">

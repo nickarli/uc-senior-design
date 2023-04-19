@@ -56,6 +56,7 @@ private slots:
     void saveNewTenant();
     QDate paidThruCalc(QDate, QString);
     void openDbSettings();
+    void addWaterEntry();
 private:
     Ui::MainWindow *ui;
 };

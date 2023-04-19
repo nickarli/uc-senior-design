@@ -162,17 +162,26 @@ public:
     QWidget *resources;
     QLabel *label_8;
     QPushButton *mainMenuButton4;
-    QStackedWidget *stackedWidget_3;
+    QStackedWidget *utilitiesWidget;
     QWidget *page_7;
     QPushButton *pushButton_30;
     QPushButton *pushButton_31;
     QLabel *label_9;
     QPushButton *pushButton_27;
-    QPushButton *pushButton_28;
+    QPushButton *addWaterButton;
     QPushButton *pushButton_26;
     QGraphicsView *graphicsView_4;
     QPushButton *pushButton_29;
-    QWidget *page_8;
+    QWidget *addWater;
+    QLineEdit *addBuildingCity_2;
+    QDateEdit *dateEdit;
+    QComboBox *comboBox;
+    QPushButton *tenantInfoBackButton1_2;
+    QPushButton *tenantInfoAddSubmit_2;
+    QLabel *label_25;
+    QLabel *label_21;
+    QLabel *label_18;
+    QLabel *label_17;
     QMenuBar *menubar;
     QMenu *menumainwindow;
     QMenu *menuHelp;
@@ -725,9 +734,9 @@ public:
         mainMenuButton4 = new QPushButton(resources);
         mainMenuButton4->setObjectName("mainMenuButton4");
         mainMenuButton4->setGeometry(QRect(710, 20, 51, 51));
-        stackedWidget_3 = new QStackedWidget(resources);
-        stackedWidget_3->setObjectName("stackedWidget_3");
-        stackedWidget_3->setGeometry(QRect(0, 10, 801, 551));
+        utilitiesWidget = new QStackedWidget(resources);
+        utilitiesWidget->setObjectName("utilitiesWidget");
+        utilitiesWidget->setGeometry(QRect(0, 10, 801, 551));
         page_7 = new QWidget();
         page_7->setObjectName("page_7");
         pushButton_30 = new QPushButton(page_7);
@@ -745,10 +754,10 @@ public:
         pushButton_27->setObjectName("pushButton_27");
         pushButton_27->setGeometry(QRect(460, 190, 141, 81));
         pushButton_27->setFont(font);
-        pushButton_28 = new QPushButton(page_7);
-        pushButton_28->setObjectName("pushButton_28");
-        pushButton_28->setGeometry(QRect(620, 80, 141, 81));
-        pushButton_28->setFont(font);
+        addWaterButton = new QPushButton(page_7);
+        addWaterButton->setObjectName("addWaterButton");
+        addWaterButton->setGeometry(QRect(620, 80, 141, 81));
+        addWaterButton->setFont(font);
         pushButton_26 = new QPushButton(page_7);
         pushButton_26->setObjectName("pushButton_26");
         pushButton_26->setGeometry(QRect(460, 80, 141, 81));
@@ -760,26 +769,53 @@ public:
         pushButton_29->setObjectName("pushButton_29");
         pushButton_29->setGeometry(QRect(620, 190, 141, 81));
         pushButton_29->setFont(font);
-        stackedWidget_3->addWidget(page_7);
+        utilitiesWidget->addWidget(page_7);
         graphicsView_4->raise();
         pushButton_30->raise();
         pushButton_31->raise();
         pushButton_27->raise();
-        pushButton_28->raise();
+        addWaterButton->raise();
         pushButton_26->raise();
         pushButton_29->raise();
         label_9->raise();
-        page_8 = new QWidget();
-        page_8->setObjectName("page_8");
-        stackedWidget_3->addWidget(page_8);
+        addWater = new QWidget();
+        addWater->setObjectName("addWater");
+        addBuildingCity_2 = new QLineEdit(addWater);
+        addBuildingCity_2->setObjectName("addBuildingCity_2");
+        addBuildingCity_2->setGeometry(QRect(140, 280, 131, 41));
+        dateEdit = new QDateEdit(addWater);
+        dateEdit->setObjectName("dateEdit");
+        dateEdit->setGeometry(QRect(140, 210, 131, 41));
+        comboBox = new QComboBox(addWater);
+        comboBox->setObjectName("comboBox");
+        comboBox->setGeometry(QRect(140, 140, 131, 41));
+        tenantInfoBackButton1_2 = new QPushButton(addWater);
+        tenantInfoBackButton1_2->setObjectName("tenantInfoBackButton1_2");
+        tenantInfoBackButton1_2->setGeometry(QRect(640, 10, 51, 51));
+        tenantInfoAddSubmit_2 = new QPushButton(addWater);
+        tenantInfoAddSubmit_2->setObjectName("tenantInfoAddSubmit_2");
+        tenantInfoAddSubmit_2->setGeometry(QRect(570, 10, 51, 51));
+        label_25 = new QLabel(addWater);
+        label_25->setObjectName("label_25");
+        label_25->setGeometry(QRect(40, 65, 111, 21));
+        label_21 = new QLabel(addWater);
+        label_21->setObjectName("label_21");
+        label_21->setGeometry(QRect(40, 290, 91, 21));
+        label_18 = new QLabel(addWater);
+        label_18->setObjectName("label_18");
+        label_18->setGeometry(QRect(40, 150, 91, 21));
+        label_17 = new QLabel(addWater);
+        label_17->setObjectName("label_17");
+        label_17->setGeometry(QRect(40, 220, 91, 16));
+        utilitiesWidget->addWidget(addWater);
         mainWidgets->addWidget(resources);
-        stackedWidget_3->raise();
+        utilitiesWidget->raise();
         label_8->raise();
         mainMenuButton4->raise();
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 807, 17));
+        menubar->setGeometry(QRect(0, 0, 807, 21));
         menumainwindow = new QMenu(menubar);
         menumainwindow->setObjectName("menumainwindow");
         menuHelp = new QMenu(menubar);
@@ -800,11 +836,11 @@ public:
 
         retranslateUi(MainWindow);
 
-        mainWidgets->setCurrentIndex(0);
-        buildingsWidget->setCurrentIndex(0);
+        mainWidgets->setCurrentIndex(4);
+        buildingsWidget->setCurrentIndex(1);
         stackedWidget->setCurrentIndex(0);
         tenantInfoWidget->setCurrentIndex(1);
-        stackedWidget_3->setCurrentIndex(0);
+        utilitiesWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -818,7 +854,7 @@ public:
         actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
         actionSteve_Mode->setText(QCoreApplication::translate("MainWindow", "Steve Mode", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:20pt;\">Main Menu</span></p></body></html>", nullptr));
-        tenantInfoButton->setText(QCoreApplication::translate("MainWindow", "Tenant Info", nullptr));
+        tenantInfoButton->setText(QCoreApplication::translate("MainWindow", "Tenants", nullptr));
         currentlyDueButton->setText(QCoreApplication::translate("MainWindow", "Currently Due", nullptr));
         buildingsButton->setText(QCoreApplication::translate("MainWindow", "Buildings", nullptr));
         resourcesButton->setText(QCoreApplication::translate("MainWindow", "Utilities", nullptr));
@@ -1040,11 +1076,17 @@ public:
         label_9->setText(QCoreApplication::translate("MainWindow", "Resources Overview Current Week", nullptr));
         pushButton_27->setText(QCoreApplication::translate("MainWindow", "View Gas\n"
 "Entries", nullptr));
-        pushButton_28->setText(QCoreApplication::translate("MainWindow", "Add Water\n"
+        addWaterButton->setText(QCoreApplication::translate("MainWindow", "Add Water\n"
 "Entry", nullptr));
         pushButton_26->setText(QCoreApplication::translate("MainWindow", "Add Gas Entry", nullptr));
         pushButton_29->setText(QCoreApplication::translate("MainWindow", "View Water\n"
 "Entries", nullptr));
+        tenantInfoBackButton1_2->setText(QCoreApplication::translate("MainWindow", "Back", nullptr));
+        tenantInfoAddSubmit_2->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
+        label_25->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Water Reading</span></p></body></html>", nullptr));
+        label_21->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt;\">Reading</span></p></body></html>", nullptr));
+        label_18->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt;\">Building</span></p></body></html>", nullptr));
+        label_17->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt;\">Date</span></p></body></html>", nullptr));
         menumainwindow->setTitle(QCoreApplication::translate("MainWindow", "Settings", nullptr));
         menuHelp->setTitle(QCoreApplication::translate("MainWindow", "Help", nullptr));
     } // retranslateUi

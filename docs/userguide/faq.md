@@ -1,0 +1,11 @@
+# Frequently Asked Questions
+- Can I edit tenant data after initial entry?
+  - Yes, From the "Tenant Info" page, select "Current Tenants" and you'll be prompted to select a tenant and edit their information.
+- ...how about buildings?
+  - Yes, from the "Buildings" page, select "Edit Buildings" and you'll be prompted to select a building and edit its information.
+- ...how about meter readings?
+  - Yes, from the "Utilities" menu, select "View Gas/Water Entries" and you'll be prompted to select a building, then you'll be presented with a list of meter readings with buttons to edit each.
+- I accidentally selected the wrong tenant as "Paid", can I undo it?
+  - Yes, re-select the "Paid" button to undo the payment. Nothing is saved to the database until you click "Save".
+- What is "Steve Mode"?
+  - Select it and find out! It's an easter egg homage to Steve, the creator of the last software solution thirty years ago.
